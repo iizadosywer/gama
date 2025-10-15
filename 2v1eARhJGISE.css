@@ -6137,3 +6137,72 @@ progress {
         border: 2px solid var(--mc-buttonColor-l20)
     }
 }
+.casino-comments {
+      max-width: 800px;
+      margin: 40px auto;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .casino-comments h2 {
+      text-align: center;
+      font-size: 1.6em;
+      margin-bottom: 20px;
+      
+    }
+
+    .comment {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      background-color: #fafafa;
+    }
+
+    .comment-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .comment-author {
+      font-weight: bold;
+      color: #222;
+    }
+
+    .comment-date {
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    .comment-rating {
+      color: #f5b301;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .comment-text {
+      margin: 0;
+      color: #444;
+      font-size: 0.95em;
+    }
+
+    .comment-text b {
+      color: #222;
+    }
+
+    @media (max-width: 600px) {
+      .casino-comments {
+        padding: 0 10px;
+      }
+      .comment {
+        padding: 12px;
+      }
+      .comment-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+      }
+    }
